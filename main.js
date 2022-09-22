@@ -36,9 +36,9 @@ function getApi() {
         const userURL = document.createElement('p');
         userURL.textContent = `URL: ${data.html_url}`;
 
-        userName.className = 'added';
-        userBio.className = 'added';
-        userURL.className = 'added';
+        userName.className = 'added info';
+        userBio.className = 'added info';
+        userURL.className = 'added info';
         userIcon.className = 'added usericon';
 
         const image = document.querySelector('.image-placeholder');
