@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 120px;
+}
+
+.userinput-wrapper {
+  margin: 40px;
+}
+
+.userdata-wraper {
+  margin: 40px;
+}
+
+.userdata {
+  margin: 30px;
+}
