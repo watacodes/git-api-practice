@@ -20,10 +20,45 @@ h1 {
   margin: 40px;
 }
 
+#submit {
+  padding: 2.5px 6px;
+  background: rgb(218, 212, 212);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 .userdata-wraper {
   margin: 40px;
 }
 
 .userdata {
   margin: 30px;
+}
+
+.userinfo-wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.usericon {
+  display: none;
+  width: 80px;
+  height: 80px;
+}
+
+.iamge-placeholder {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.userinfo {
+  width: 50%;
+}
+
+.added {
+  display: flex;
+  padding: 5px 10px;
 }
